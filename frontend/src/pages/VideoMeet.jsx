@@ -21,7 +21,9 @@ import Badge from "@mui/material/Badge";
 
 import { useNavigate } from "react-router-dom";
 
-const server_url = "http://localhost:8000";
+import server from "../environment.js";
+
+const server_url = server;
 
 var connections = {};
 
