@@ -7,7 +7,7 @@ import io from "socket.io-client";
 import styles from "../styles/VideoComponent.module.css";
 import IconButton from "@mui/material/IconButton";
 
-import VideocamIcon from "@mui/icons-material/VideoCam";
+import VideocamIcon from "@mui/icons-material/Videocam";
 import VideocamOffIcon from "@mui/icons-material/VideocamOff";
 import ScreenShareIcon from "@mui/icons-material/ScreenShare";
 import ScreenShareStopIcon from "@mui/icons-material/StopScreenShare";
