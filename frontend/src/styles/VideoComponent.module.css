@@ -1,0 +1,114 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Lobster Two", sans-serif;
+  background-color: rgb(1, 4, 27);
+}
+
+  body {
+    all: unset;
+    font-family: "Lobster Two", sans-serif;
+   margin: 0;
+  height: 100vh; 
+   background: radial-gradient(circle at 20% 30%, #08121f, #000610);
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; 
+  font-family: "Lobster Two", sans-serif;
+  position: relative; 
+}
+
+/* Main container */
+.meetVideoContainer {
+  position: relative;
+  height: 100vh;
+  /* overflow: hidden; */
+}
+
+/* Local video */
+.meetUserVideo {
+  position: absolute;
+  height: 25vh;
+  width: auto;
+  left: 0;
+  bottom: 15vh;
+  border-radius: 1vw;
+}
+
+/* Bottom buttons */
+.buttonContainer {
+  position: absolute;
+  width: 100%;
+  bottom: 15vh;
+  text-align: center;
+}
+
+.buttonContainer svg {
+  font-size: 4rem;
+  border: 1px solid rgba(255, 255, 255, 0.475);
+  padding: 1rem;
+  border-radius: 7px;
+}
+
+/* Conference videos */
+.conferenceView {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+
+.conferenceView video {
+  height: 30vh;
+  border-radius: 10px;
+}
+
+/* Chat room */
+.chatRoom {
+  position: absolute;
+  height: 90vh;
+  right: 0;
+  background-color: wheat;
+  border-radius: 10px;
+  width: 50vh;
+  padding: 20px;
+  bottom: 15vh;
+  color: black;
+}
+
+.chatContainer {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.chattingDisplay {
+  flex: 1;
+  overflow-y: auto;
+  padding-bottom: 60px; /* textfield ke liye jagah */
+}
+
+.chattingArea {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  background-color: wheat;
+  position: sticky; /* neeche chipka rahe */
+  bottom: 0;
+  z-index: 10;
+}
+
+
+i{
+  font-size: 1.4vw;
+}
+
+
